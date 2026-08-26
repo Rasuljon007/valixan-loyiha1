@@ -1,0 +1,617 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+
+}
+
+.container{
+    width: 1312px;
+    margin: 0 auto;
+    
+}
+
+body{
+    background:#F6F7F9;
+}
+
+header{
+    width:100%;
+    height:80px;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 50px;
+    margin-bottom: 40px;
+}
+
+.logo{
+    color:#3563E9;
+    font-size:32px;
+    font-weight:bold;
+    padding: -500px;
+}
+
+header input{
+    width:350px;
+    height:40px;
+    border:1px solid #ddd;
+    border-radius:30px;
+    padding-left:15px;
+    outline:none;
+}
+
+.icon{
+    font-size:24px;
+    display:flex;
+    gap:20px;
+    
+}
+
+.banner{
+    margin:30px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.banner2{
+    top: -30px;
+    margin-top: 32px;
+}
+.banner1,
+.banner2{
+    width: 600px; ;
+    height: 300px;
+    border-radius:15px;
+    padding:30px;
+    color:white;
+    position:relative;
+}
+
+.banner1{
+    background:#54A6FF;
+}
+
+.banner2{
+    background:#3563E9;
+}
+
+.banner h2{
+    width:250px;
+    font-size:28px;
+}
+
+.banner p{
+    width:250px;
+    margin:20px 0;
+    line-height:25px;
+}
+
+.banner button{
+    width:120px;
+    height:45px;
+    border:none;
+    border-radius:8px;
+    background:#3563E9;
+    color:white;
+    cursor:pointer;
+}
+
+.banner img{
+    width:250px;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+
+.booking{
+
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.pickup,
+.dropoff{
+    width:45%;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.pickup h3,
+.dropoff h3{
+    margin-bottom:20px;
+}
+
+.pickup select,
+.dropoff select{
+    width:30%;
+    height:40px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin-right:10px;
+
+}
+
+
+.swap{
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:10px;
+    background:#3563E9;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.car-nomi1{
+    margin-top: 10px;
+    bottom: 100px;
+    
+}
+
+
+.cars{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 8px #a5a5a547;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img{
+    width: 250px!important;
+}
+
+.card h3{
+    margin-top: 10px;
+}
+
+.card p{
+    color: gray;
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+.card button{
+    background: #3563E9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon :hover{
+    transform: scale(1.5);
+}
+.footer{
+
+    background:#fff;
+    padding:60px 80px 20px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.footer-logo h2{
+    color:#3563E9;
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.footer-logo p{
+    color:#777;
+    width:280px;
+    line-height:25px;
+}
+
+.footer-links{
+    display:flex;
+    gap:80px;
+    
+}
+
+.footer-links div{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-links h3{
+    margin-bottom:20px;
+    color:#111;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#777;
+    margin-bottom:15px;
+}
+
+hr{
+    margin:40px 0 20px;
+    border:1px solid #eee;
+}
+
+.footer-bottom{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.bottom-links{
+    display:flex;
+    gap:30px;
+}
+
+.bottom-links a{
+    text-decoration:none;
+    color:#111;
+    font-weight:500;
+}
+
+.img-sgv2{
+    width: 100px;
+    height: auto;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+    
+.banner{
+    margin:30px auto;
+    display:flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+
+.banner9,
+.banner2{
+    height:300px;
+    border-radius:15px;
+    padding:30px;
+    color:white;
+    position:relative;
+    
+}
+.img-car3{
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+
+.banner9{
+    background:#54A6FF;
+    position: relative;
+    right: 700;
+    width: 456px;
+
+}
+.right{
+    height: 450px;
+    width: 500px;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+}
+
+.right h2{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.right span{
+    color:gray;
+}
+
+.text{
+    color:gray;
+    line-height:25px;
+    margin:20px 0;
+}
+
+.info{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.info p{
+    width:200px;
+    color:#666;
+}
+.price{
+    margin-top:30px;
+}
+
+.price h2{
+    display:inline-block;
+}
+
+.price del{
+    color:gray;
+    margin-left:10px;
+   
+
+}
+
+.price button{
+    
+    float:right;
+    background:#3563E9;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+     box-shadow: 0 2px 8px rgba(4, 11, 218, 0.803);
+}
+.img-car3{
+    margin-top: 20px;
+}
+.reviews{
+    
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.reviews-header h2{
+    font-size: 22px;
+}
+
+.reviews-header span{
+    background: #3563E9;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.review-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.review-card img{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.review-info{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.review-info h3{
+    font-size: 18px;
+}
+
+.job{
+    color: gray;
+    margin: 5px 0;
+}
+
+.text{
+    color: #777;
+    line-height: 1.6;
+}
+
+.review-right{
+    text-align: right;
+    color: gray;
+}
+
+.show-all{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.show-all a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.cars{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.card-3{
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(1, 18, 255, 0.689);
+    left: 380px;
+    
+
+    
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h3{
+    margin-top: 10px;
+}
+
+.card p{
+    color: gray;
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+.card-3 button {
+    background: #2724cd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+    
+.img-type{
+    position: relative;
+top: -450px;
+}
+.img-capavity{
+position: relative;
+top: -433px;
+}
+
+.img-price{
+    position: relative;
+top:-400px;
+}
+.card-3{
+    position: relative;
+    
+}
+.car-nomi{
+    width: 50%;
+    position: relative;
+    margin-top: 30px;
+
+}
+.footer-top1{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    position: relative;
+    
+}
+
+.footer-logo1 h2{
+    color:#3563E9;
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.footer-logo1 p{
+    color:#777;
+    width:280px;
+    line-height:25px;
+}
+
+.footer-links1{
+    display:flex;
+    gap:80px;
+    
+ 
+    
+    
+}
+
+.footer-links1 div{
+    display:flex;
+    flex-direction:column;
+    
+   
+    
+}
+
+.footer-links1 h3{
+    margin-bottom:20px;
+    color:#111;
+}
+
+.footer-links1 a{
+    text-decoration:none;
+    color:#777;
+    margin-bottom:15px;
+    
+    
+
+}
+
+hr{
+    margin:40px 0 20px;
+    border:1px solid #eee;
+}
+
+.footer-bottom1{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position: relative;
+    top: -900px;
+
+    
+}
+
+
+.card-3 {
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+
+ .detail-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+ }
+
+ aside{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: calc(100vh - 100px);
+
+    position: sticky;
+    top: 0;
+ }
+
+
+.detail{
+    display: flex;
+    
+}
+
+.main-right{
+    padding: 50px;
+}
